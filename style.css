@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a,a:hover, a:active,a:focus{
+    text-decoration: none;
+    color: #000000;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    font-weight: normal;
+}
+p{
+    margin: 0;
+    line-height: 24px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* =====================
+style start from here
+========================
+*/
+body{
+    background-color: blue;
+    background-image: radial-gradient(circle, rgba(255,0,0,0) 0%, rgba(167,1,1,0.8) 100%);
+    background-attachment: fixed;
+}
+
+#main-section{
+    padding-top: 20px;
+}
+
+.header-part{
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    background-color: aquamarine;
+    margin-bottom: 10px;
+}
+.header-part h6{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.card-header h4{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.profile-area img{
+    width: 100%;
+}
+.card-body p{
+    font-size: 13px;
+    font-weight: 600;
+}
+.card-footer p{
+    font-weight: 800;
+    font-size: 15px;
+}
