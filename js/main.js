@@ -45,19 +45,29 @@ function calculate_age(x){
 }
 
 // setting date of birth by ID
-document.getElementById('safar_uddin').innerHTML = calculate_age("12/25/1950");
-document.getElementById('rani').innerHTML = calculate_age("");
+document.getElementById('safar_uddin').innerHTML = calculate_age("12/31/1958");
+document.getElementById('rani').innerHTML = calculate_age("03/09/1963");
 document.getElementById('mishkat').innerHTML = calculate_age("12/16/1981");
 document.getElementById('moriom-mishkat').innerHTML = calculate_age("01/01/1987");
 document.getElementById('maisha').innerHTML = calculate_age("12/25/2013");
 document.getElementById('anisha').innerHTML = calculate_age("06/24/2018");
 document.getElementById('kawsar').innerHTML = calculate_age("01/27/1992");
 document.getElementById('ashfak').innerHTML = calculate_age("06/12/1994");
+document.getElementById('siddik').innerHTML = calculate_age("10/10/1998");
+document.getElementById('hafiz').innerHTML = calculate_age("10/10/1998");
+document.getElementById('sabbir').innerHTML = calculate_age("10/15/2000");
 
-// document.getElementById('ashfak').innerHTML = calculate_age("06/12/1994");
-// document.getElementById('ashfak').innerHTML = calculate_age("06/12/1994");
-// document.getElementById('ashfak').innerHTML = calculate_age("06/12/1994");
 document.getElementById('iskander').innerHTML = calculate_age("01/01/1968");
+document.getElementById('aleya').innerHTML = calculate_age("06/13/1989");
+document.getElementById('noory').innerHTML = calculate_age("11/03/2009");
+document.getElementById('lovely').innerHTML = calculate_age("07/17/2011");
+document.getElementById('emad').innerHTML = calculate_age("06/19/2014");
+document.getElementById('rimad').innerHTML = calculate_age("02/11/2018");
+
+// document.getElementById('kadir').innerHTML = calculate_age("06/13/1989");
+document.getElementById('rohima').innerHTML = calculate_age("09/22/1990");
+document.getElementById('urmi').innerHTML = calculate_age("02/02/2015");
+document.getElementById('fammi').innerHTML = calculate_age("10/03/2016");
 
 
 
